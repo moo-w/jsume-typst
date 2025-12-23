@@ -9,7 +9,7 @@
   left-margin: 0.3in,
   right-margin: 0.3in,
   font: "New Computer Modern",
-  nerd-font: "",
+  nerd-font: "Symbols Nerd Font",
   font-size: 11pt,
   lang: "en",
   jsume-data: (),
@@ -31,9 +31,7 @@
 
   show: zh-format
 
-  if nerd-font != "" {
-    change-nerd-font(nerd-font)
-  }
+  change-nerd-font(nerd-font)
 
   set document(
     title: title,

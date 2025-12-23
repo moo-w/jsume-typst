@@ -14,11 +14,11 @@ doc:
 
 # run test suite
 test *args:
-  tt run --no-fail-fast {{ args }}
+  tt run --no-fail-fast --use-system-fonts {{ args }}
 
 # update test cases
 update *args:
-  tt update {{ args }}
+  tt --use-system-fonts update {{ args }}
 
 # package the library into the specified destination folder
 package target:
