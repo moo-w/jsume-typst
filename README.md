@@ -53,6 +53,6 @@ This template supports:
 - [ ] Français (`fr-FR`)
 - [ ] Deutsch (`de-DE`)
 - [ ] Русский (`ru-RU`)
-- [ ] 한국어(`ko-KR`)
+- [ ] 한국어 (`ko-KR`)
 
 More languages will be supported in the future.
