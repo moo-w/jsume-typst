@@ -22,7 +22,7 @@
 
 #let date-to-str(
   date: false,
-  lang: "en",
+  lang: "en-US",
 ) = {
   if date == false {
     return i18n.present.at(lang)

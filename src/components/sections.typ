@@ -20,7 +20,7 @@
   label: "",
   position: center,
   base-font-size: 11pt,
-  lang: "en",
+  lang: "en-US",
 ) = {
   align(position)[
     #upper(text(base-font-size + 16pt, weight: "extrabold")[#title])
@@ -81,7 +81,7 @@
 
 #let work-section(
   data: (),
-  lang: "en",
+  lang: "en-US",
 ) = {
   let single-work-item(
     company: "",
@@ -143,7 +143,7 @@
 
 #let projects-section(
   data: (),
-  lang: "en",
+  lang: "en-US",
 ) = {
   let single-project-item(
     name: "",
@@ -212,7 +212,7 @@
 
 #let publications-section(
   data: (),
-  lang: "en",
+  lang: "en-US",
 ) = {
   let single-publication-item(
     name: "",
@@ -261,7 +261,7 @@
 
 #let education-section(
   data: (),
-  lang: "en",
+  lang: "en-US",
 ) = {
   let single-education-item(
     institution: "",
@@ -319,7 +319,7 @@
 
 #let certificates-section(
   data: (),
-  lang: "en",
+  lang: "en-US",
 ) = {
   let single-certificate-item(
     name: "",
@@ -371,7 +371,7 @@
 
 #let awards-section(
   data: (),
-  lang: "en",
+  lang: "en-US",
 ) = {
   let single-award-item(
     title: "",
@@ -418,7 +418,7 @@
 
 #let skills-section(
   data: (),
-  lang: "en",
+  lang: "en-US",
 ) = {
   let single-skill-item(
     name: "",
@@ -444,7 +444,7 @@
 
 #let languages-section(
   data: (),
-  lang: "en",
+  lang: "en-US",
 ) = {
   let single-language-item(
     language: "",

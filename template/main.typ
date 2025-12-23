@@ -9,6 +9,6 @@
   font: "Libertinus Serif",
   nerd-font: "Symbols Nerd Font",
   font-size: 11pt,
-  lang: "en",
-  jsume-data: json("jsume-en.json"),
+  lang: "en-US",
+  jsume-data: json("en-US.jsume.json"),
 )

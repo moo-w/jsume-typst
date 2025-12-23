@@ -10,5 +10,5 @@
 // #align(center)[_a thumbnail showing the package's output_]
 
 #show: jsume.with(
-  jsume-data: json("jsume-en.json"),
+  jsume-data: json("en-US.jsume.json"),
 )

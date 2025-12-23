@@ -4,6 +4,7 @@
 
 #let jsume(
   paper: "a4",
+  numbering: "(1/1)",
   top-margin: 0.3in,
   bottom-margin: 0.3in,
   left-margin: 0.3in,
@@ -11,7 +12,7 @@
   font: "Libertinus Serif",
   nerd-font: "Symbols Nerd Font",
   font-size: 11pt,
-  lang: "en",
+  lang: "en-US",
   jsume-data: (),
   doc,
 ) = {
@@ -42,7 +43,7 @@
 
   set page(
     paper: paper,
-    numbering: "(1/1)",
+    numbering: numbering,
     margin: (
       top: top-margin,
       bottom: bottom-margin,
@@ -59,7 +60,7 @@
   set text(
     font: font,
     size: font-size,
-    lang: lang,
+    lang: lang.split("-").at(0, default: "en"),
     ligatures: false,
   )
 

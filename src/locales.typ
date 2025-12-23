@@ -1,40 +1,40 @@
 #let i18n = (
   title: (
     work: (
-      "en": "Work",
-      "zh": "工作经历",
+      "en-US": "Work",
+      "zh-CN": "工作经历",
     ),
     education: (
-      "en": "Education",
-      "zh": "教育经历",
+      "en-US": "Education",
+      "zh-CN": "教育经历",
     ),
     projects: (
-      "en": "Projects",
-      "zh": "项目经历",
+      "en-US": "Projects",
+      "zh-CN": "项目经历",
     ),
     publications: (
-      "en": "Publications",
-      "zh": "出版物",
+      "en-US": "Publications",
+      "zh-CN": "出版物",
     ),
     certifications: (
-      "en": "Certifications",
-      "zh": "证书",
+      "en-US": "Certifications",
+      "zh-CN": "证书",
     ),
     awards: (
-      "en": "Awards",
-      "zh": "奖项",
+      "en-US": "Awards",
+      "zh-CN": "奖项",
     ),
     skills: (
-      "en": "Skills",
-      "zh": "技能",
+      "en-US": "Skills",
+      "zh-CN": "技能",
     ),
     languages: (
-      "en": "Languages",
-      "zh": "语言",
+      "en-US": "Languages",
+      "zh-CN": "语言",
     ),
   ),
   present: (
-    "en": "Present",
-    "zh": "现在",
+    "en-US": "Present",
+    "zh-CN": "现在",
   ),
 )
